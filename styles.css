@@ -1,0 +1,229 @@
+* {
+	box-sizing: border-box;
+}
+
+nav {
+  display: block;
+  background-color: #999999;
+  color: #222222;
+  height: 90px;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	background-color: #999999;
+  	color: #222222; 
+}
+
+footer p {
+	line-height: 3em;
+}
+
+ul {
+	background-color: #666666;
+}
+
+nav ul li {
+	display: inline;
+	margin: 10px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #222222;
+}
+
+h3 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+footer p {
+	margin-left: 20px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-brand {
+  display: block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-nav {
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  height: 50px;
+  line-height: 3em;
+  margin-top: 5px;
+}
+
+.navbar-header {
+	width: 50%;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.rightNav {
+	width: 50%;
+	display: inline-block;
+}
+
+.navCont {
+	display: flex;
+	padding-top: 10px;
+	padding-left: 80px;
+}
+
+.mainCont, .belowPic {
+	margin-top: 20px;
+}
+
+.readMore {
+	margin-top: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.brandName {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-1 {
+  -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.col-2 {
+  -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-3 {
+  -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-5 {
+  -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.col-6 {
+  -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.col-8 {
+  -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-9 {
+  -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.col-11 {
+  -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  max-width: 100%;
+}
+
+.smallImg {
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.smallFont {
+	font-size: 0.7em;
+}
